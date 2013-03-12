@@ -41,7 +41,16 @@
 -->
   <!--Page-specific JavaScript, e.g., for use with SWFObject-->
   <script>
-
+$(document).ready(function(){
+  $("#protfolio h2").click(function(){
+    $("#protfolio p").slideToggle("slow");
+  });
+});
+$(document).ready(function(){
+  $("#aboutme h2").click(function(){
+    $("#aboutme p").slideToggle("slow");
+  });
+});
   </script>
 </head>
 

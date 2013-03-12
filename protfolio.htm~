@@ -40,14 +40,13 @@
   <script type="text/javascript" src="/js/swfobject/swfobject.js"></script>
 -->
   <!--Page-specific JavaScript, e.g., for use with SWFObject-->
-  <script>
+  <script type="text/javascript">
 
   </script>
+
 </head>
 
 <body>
-<div id="flip">Click to slide the panel down or up</div>
-<div id="panel">Hello world!</div>
 <div id="all">
   
   <div id="header">
@@ -65,10 +64,8 @@
    </ul>
   </div>
 
-	<div id="content">
-
-    <div id="protfolio">
-      <h2><a href="protfolio.htm">Protfolio List</a></h2>
+  <div id="content">
+     <h2>Protfolio List</h2>
       <ul>
        <li><a href="protfolio/1.htm">Introduction to HFAI</a><p>Established in 2004, The Automaton Institute robot club from Affiliated High School of SCNU (South China Normal University) aimed at advance technology development...</p></li>
        <li><a href="protfolio/2.htm">We are “smilence” to the championship</a><p>It was November 7, a uncommon day,when we participated the Robot football game competition in Hong Kong...</p></li>
@@ -76,15 +73,7 @@
        <li><a href="protfolio/4.htm">Bygone</a><p>Today, I am return, to that road, to that shop. I see my shadow on this road and bygone was salvaged little by little...</p></li>
        <li><a href="protfolio/5.htm">V for Vendetta</a><p>Voila! In view, a humble vaudevillian veteran cast vicariously as both victim and villain by the vicissitudes of fate...</p> </li>
       </ul>
-    </div>
-
-    <div id="aboutme">
-      <h2><a href="about.htm">About Me</a></h2>
-      <p>Weicheng Huang, a student from far east, knows little about web design. This is the only one formal website he ever design. He now majors in Computer Science of Illinois Institute of Technology.....</p>
-			<p>Anyway, It is his website that with all his hard works. Come here and tell him about your feeling, we will be glad if you guys point him some brilliant way out.</p>
-      <a href="resume.htm">see my resume</a>
-    </div>
-	</div>
+  </div>
 
   <div id="footer">
     <p>Edit By:Weicheng Huang whuang23@hawk.iit.edu</p>

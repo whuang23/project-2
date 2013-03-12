@@ -32,22 +32,25 @@
 -->
 
   <!--Load the jQuery library-->
-  <script type="text/javascript" src="js/jquery/jquery.js"></script>
+  <script type="text/javascript" src="/js/jquery/jquery.js"></script>
   <!--Load site-wide JavaScript-->
-  <script type="text/javascript" src="js/site.js"></script>
+  <script type="text/javascript" src="/js/site.js"></script>
   <!--Load SWFObject for working with Flash media; uncomment to load.-->
 <!--
   <script type="text/javascript" src="/js/swfobject/swfobject.js"></script>
 -->
   <!--Page-specific JavaScript, e.g., for use with SWFObject-->
-  <script>
-
+  <script type="text/javascript">
+  $(document).ready(function(){
+  $("#content h2").click(function(){
+    $("#content p").slideToggle("slow");
+  });
+});
   </script>
+
 </head>
 
 <body>
-<div id="flip">Click to slide the panel down or up</div>
-<div id="panel">Hello world!</div>
 <div id="all">
   
   <div id="header">
@@ -56,7 +59,6 @@
     <div class="logo"><h1>Welcome To My Home!</h1>
     </div>
   </div>
-
   <div id="navigation">
     <ul>
      <li><a href="resume.htm">Resume</a></li>
@@ -65,26 +67,26 @@
    </ul>
   </div>
 
-	<div id="content">
+  <div id="content">
+    <h3>EDUCATION</h3>
+    <ul>
+      <li>Bachelor Degree of Computer Science from Illionis Institute of Technology Sept.2012-May.2016</li>
+    </ul>
+    <h3 >SKILL</h3>
+    <ul>
+      <li>php programming and web design</li>
+      <li>English and Chinese</li>
+      <li>Linux using experience</li>
+      <li>Little knowledge of Racket Language</li>
+    </ul>
 
-    <div id="protfolio">
-      <h2><a href="protfolio.htm">Protfolio List</a></h2>
-      <ul>
-       <li><a href="protfolio/1.htm">Introduction to HFAI</a><p>Established in 2004, The Automaton Institute robot club from Affiliated High School of SCNU (South China Normal University) aimed at advance technology development...</p></li>
-       <li><a href="protfolio/2.htm">We are “smilence” to the championship</a><p>It was November 7, a uncommon day,when we participated the Robot football game competition in Hong Kong...</p></li>
-       <li><a href="protfolio/3.htm">Ramble</a><p>There are only couple days left to the final exam in our high school...</p></li>
-       <li><a href="protfolio/4.htm">Bygone</a><p>Today, I am return, to that road, to that shop. I see my shadow on this road and bygone was salvaged little by little...</p></li>
-       <li><a href="protfolio/5.htm">V for Vendetta</a><p>Voila! In view, a humble vaudevillian veteran cast vicariously as both victim and villain by the vicissitudes of fate...</p> </li>
-      </ul>
-    </div>
-
-    <div id="aboutme">
-      <h2><a href="about.htm">About Me</a></h2>
-      <p>Weicheng Huang, a student from far east, knows little about web design. This is the only one formal website he ever design. He now majors in Computer Science of Illinois Institute of Technology.....</p>
-			<p>Anyway, It is his website that with all his hard works. Come here and tell him about your feeling, we will be glad if you guys point him some brilliant way out.</p>
-      <a href="resume.htm">see my resume</a>
-    </div>
-	</div>
+    <h3>EXPERIENCE</h3>
+    <ul>
+      <li>2009-2011: joined the Robot Club "HFAI" and started programming career</li>
+      <li>2012 Summer: Worked as a salesman for my father</li>
+      <li>2012: Study in IIT US for Undergraduate Student</li>
+    </ul>
+  </div>
 
   <div id="footer">
     <p>Edit By:Weicheng Huang whuang23@hawk.iit.edu</p>

@@ -41,6 +41,7 @@
 -->
   <!--Page-specific JavaScript, e.g., for use with SWFObject-->
   <script type="text/javascript">
+  /*Page-specific JavaScript*/
   </script>
 
 </head>
@@ -54,33 +55,19 @@
     <div class="logo"><h1>Welcome To My Home!</h1>
     </div>
   </div>
+
   <div id="navigation">
     <ul>
      <li><a href="resume.htm">Resume</a></li>
-     <li><a href="protfolio.htm">Protfolio</a></li>
+     <li><a href="protfolio.htm">Portfolio</a></li>
      <li><a href="about.htm">About Me</a></li>
    </ul>
   </div>
 
   <div id="content">
-    <h3>EDUCATION</h3>
-    <ul>
-      <li>Bachelor Degree of Computer Science from Illionis Institute of Technology Sept.2012-May.2016</li>
-    </ul>
-    <h3 >SKILL</h3>
-    <ul>
-      <li>php programming and web design</li>
-      <li>English and Chinese</li>
-      <li>Linux using experience</li>
-      <li>Little knowledge of Racket Language</li>
-    </ul>
-
-    <h3>EXPERIENCE</h3>
-    <ul>
-      <li>2009-2011: joined the Robot Club "HFAI" and started programming career</li>
-      <li>2012 Summer: Worked as a salesman for my father</li>
-      <li>2012: Study in IIT US for Undergraduate Student</li>
-    </ul>
+    <h2>About Me</h2>
+    <p>Weicheng Huang, a student from far east, knows little about web design. This is the only one formal website he ever design. He now majors in Computer Science of Illinois Institute of Technology. He spends lots of time on computer programming especially in Java and C with a never ever changed porker face. But what makes him really feel sick is the extremely rigorous grammar of Racket Language. However, in non-programming time, he is a passionate guy and , for example, knows playing basketball and football as well as video game like DOTA or Call of Duty. </p>
+    <p>Anyway, It is his website that with all his hard works. Come here and tell him about your feeling, we will be glad if you guys point him some brilliant way out.</p>
   </div>
 
   <div id="footer">
