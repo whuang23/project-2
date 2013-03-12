@@ -1,119 +1,35 @@
-/* screen.css: Screen Styles */
+html {
+background:url('../media/img/bg.png');
 
-/* Base Styles */
-
-/* Bold on headings, b, and strong */
-h1,h2,h3,h4,h5,h6,b,strong { font-weight: bold; }
-/* Italic on i, em, and cite: */
-i,em,cite { font-style: italic; }
-/* Dotted border and help cursor to abbr and acronym: */
-abbr,acronym { border-bottom: 1px dotted; cursor: help; }
-
-/* Body */
-
-body {
 }
 
-/* Major Divisions */
+div#header{
+  background-color:rgba(225,0,0,.5);
+  padding-left:50px;
 
-/* Page (Containing Div) */
-div#page {
-}
-
-/* Header */
-div#header {
-}
-div#header h1 {
-}
-div#header h1 a {
-}
-div#header p.tagline {
-}
-div#header ul.accessibility {
 }
 
-/* Content */
-div#content {
+div.logo h1{
+  padding-top:50px;
+  font-size:60px;
+  padding-bottom:20px;
+  color:#FFFFFF;
 }
 
-div#main {
+div.img{
+  float:left;
 }
 
-div#supporting {
+div#navigation{
+  clear:both;
 }
 
-/* Footer */
-div#footer {
+div#footer{
+  margin-top:15px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #999999;
+  text-align: center;
+  font-size:12px;
+  color:#999999;
 }
-div#footer p.credits {
-}
-div#footer ul.validators {
-}
-div#footer ul.validators li {
-}
-
-/*Navigation*/
-ul#navigation {
-}
-
-ul#navigation li {
-}
-
-ul#navigation li a {
-}
-
-ul#navigation li a:visited {
-}
-
-ul#navigation li a:hover,
-ul#navigation li a:focus {
-}
-
-
-/*Content Typography: Headings*/
-div#content h2 {
-}
-div#content h3 {
-}
-div#content h4 {
-}
-div#content h5 {
-}
-div#content h6 {
-}
-
-/*Content Typography: Paragraphs*/
-div#content p {
-}
-
-/*Content Typography: Unordered Lists*/
-div#content ul {
-}
-div#content ul li {
-}
-/*Nested*/
-div#content * li ul {
-}
-div#content * li ul li {
-}
-
-/*Content Typography: Ordered Lists*/
-div#content ol {
-}
-div#content ol li {
-}
-/*Nested*/
-div#content * li ol {
-}
-div#content * li ol li {
-}
-
-/*Content Typography: Links*/
-div#content a {
-}
-div#content a:visited {
-}
-div#content a:hover,
-div#content a:focus {
-}
-
