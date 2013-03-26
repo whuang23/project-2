@@ -21,9 +21,3 @@ $(document).ready(function(){
     $("#aboutme p").slideToggle("slow");
   });
 });
-
-  $(document).ready(function(){
-  $("#content h2").click(function(){
-    $("#content p").slideToggle("slow");
-  });
-});
