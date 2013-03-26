@@ -59,15 +59,15 @@
   <div id="navigation">
     <ul>
      <li><a href="resume.htm">Resume</a></li>
-     <li><a href="protfolio.htm">Portfolio</a></li>
+     <li><a href="protfolio.htm">Protfolio</a></li>
      <li><a href="about.htm">About Me</a></li>
    </ul>
   </div>
 
   <div id="content">
     <h2>About Me</h2>
-    <p>Weicheng Huang, a student from far east, knows little about web design. This is the only one formal website he ever design. He now majors in Computer Science of Illinois Institute of Technology. He spends lots of time on computer programming especially in Java and C with a never ever changed porker face. But what makes him really feel sick is the extremely rigorous grammar of Racket Language. However, in non-programming time, he is a passionate guy and , for example, knows playing basketball and football as well as video game like DOTA or Call of Duty. </p>
-    <p>Anyway, It is his website that with all his hard works. Come here and tell him about your feeling, we will be glad if you guys point him some brilliant way out.</p>
+    <p>Weicheng Huang, a student from the Far East, knows a little about web design. This is the only formal website he has ever designed. He now majors in Computer Science of Illinois Institute of Technology. He spends lots of time on computer programming, especially in Java and C,with a never changing poker face. But what makes him really feel sick is the extremely rigorous grammar of Racket Language. However, in non-programming time, he is a passionate guy and, for example, plays basketball and football as well as video games like DOTA or Call of Duty. </p>
+    <p>Anyway, this is his website that is based on all his hard work. Come here and tell him about your feeling, we will be glad if you guys point him some brilliant way out.</p>
   </div>
 
   <div id="footer">
