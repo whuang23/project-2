@@ -12,8 +12,8 @@ function rpkwidescreen() {
     else { $('body').removeClass('widescreen'); }
 }
 $(document).ready(function(){
-  $("#protfolio h2").click(function(){
-    $("#protfolio p").slideToggle("slow");
+  $("#portfolio h2").click(function(){
+    $("#portfolio p").slideToggle("slow");
   });
 });
 $(document).ready(function(){
@@ -21,3 +21,4 @@ $(document).ready(function(){
     $("#aboutme p").slideToggle("slow");
   });
 });
+

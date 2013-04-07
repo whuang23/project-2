@@ -1,0 +1,9 @@
+		good evening everybody. it's my pleasure to show you my project2 formaly here.
+		as you guys seeing, this is my index page contains 4 grids: the title, navigation bar content and footer. this 4 divs are the main framework in my website and you will see those grids in all other page.
+		for the title grid,also call header, is make up with a logo picture and a h1 tag sentence. With the tips from Professior,it looks well with a css proportry : clear:both.
+		about the navigation bar, contains 3 tags Resume, Portfolio and about me tags. brown backgound and white font color.
+		next is content grid. In index page, i divide content into 2 sub grid which has the consideration for moblie devices. when you zip the width and you can find that those two sub grids stand from paralle to one by one style. 
+		what is interesting is i use a little tricky things to make my index page more huminity. you can hide the datill by clicking the brown bar.(i add tips here so every one can easily find this javaScript.
+		By the way, personlly i love this background image that is exhibiting the beauty of symmetry. it was really a good experience to make a symmetry picture.
+		this is the common footer, i pay no attention on designing the footer
+		For the portfoilo lists. i translated serveral articles from my language to English, there are a club introduction, a competation expericence and 2 diaries. and the last one was a game which i make when i learn the javascript

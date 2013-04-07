@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" id="example-com">
+
+<head>
+
+  <meta charset="utf-8" />
+  <title>W Home</title>
+  <link rel="stylesheet" type="text/css" media="screen,print" href="../css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="../css/screen.css" />
+  <!--[if lte IE 7>
+  <link rel="stylesheet" type="text/css" media="screen" href="/css/screen-ie.css" />
+  <![endif]-->
+  <link rel="stylesheet" type="text/css" media="print" href="../css/print.css" />
+
+<!--REMOVE COMMENT TAGS TO USE FACEBOOK SHARE METADATA:-->
+
+<!--
+  <meta name="title" content="Match this with the content of the title tag above." /> 
+  <meta name="description" content="A short description of this page." />
+  <link rel="image_src" href="http://example.com/media/img/thumbnail.jpg" />
+-->
+
+<!--REMOVE COMMENT TAGS TO USE FAVICON LINKS:-->
+
+  <!--For most browsers:-->
+<!--
+  <link rel="icon" href="http://example.com/favicon.png" type="image/png" />
+-->
+  <!--For Internet Explorer:-->
+<!--
+  <link rel="shortcut icon" href="http://example.com/favicon.ico" />
+-->
+
+  <!--Load the jQuery library-->
+  <script type="text/javascript" src="../js/jquery/jquery.js"></script>
+  <!--Load site-wide JavaScript-->
+  <script type="text/javascript" src="../js/site.js"></script>
+  <!--Load SWFObject for working with Flash media; uncomment to load.-->
+<!--
+  <script type="text/javascript" src="/js/swfobject/swfobject.js"></script>
+-->
+  <!--Page-specific JavaScript, e.g., for use with SWFObject-->
+  <script type="text/javascript">
+  /*Page-specific JavaScript*/
+  </script>
+
+</head>
+
+<body>
+<div id="all">
+  
+  <div id="header">
+    <div class="img"><a href="../index.htm"> <img src="../media/img/logo.png" alt="some_text" width="300" height="150"> </a>
+    </div>
+    <div class="logo"><h1>Welcome To My Home!</h1>
+    </div>
+  </div>
+
+  <div id="navigation">
+    <ul>
+     <li><a href="../resume.htm">Resume</a></li>
+     <li><a href="../portfolio.htm">portfolio</a></li>
+     <li><a href="../about.htm">About Me</a></li>
+   </ul>
+  </div>
+
+  <div id="content">
+    <h2>Bygone</h2>
+    <p>Today, I am returning, to that road, to that shop. I see my shadow on this road and the bygone past was salvaged little by little.</p>
+    <p>Do you remember? Stepping on the long road, the destination was my primary school. I was wearing my ink spotted uniform and a tiny school bag, grabbing a coin from the corner of my house, thinking of tasty snacks, going to school with satisfaction and being caught by the principal for sneaking in late. What still remains now? Nothing!</p>
+ <div class="pic"> 
+			<h5><img src="../media/img/r1.jpeg" alt="v1" width="600" height="393">my apt view</h5> 
+   </div>
+    <p>Today may be the annual opening day for parents. Lots of students are leaving school with their parents, heading to their homes. Those active and naughty kids sometimes rush far away from their parents, only returning when their parents’ call, sometimes begging their parents for a new toy. But their parents are just talking about the scores of those rascals. There may be a strict father, followed by his sad-looking son, who is checking the exam paper. Maybe there is a happy mother holding a reward certificate. But it’s time to face the truth, these good days do not belong to me anymore. I’m staring at the slogan printed on the primary school building blankly, forgetting the time.</p>
+    <p>“You are proud of Chao Tian Primary School today. We are proud of you tomorrow.”</p>
+    <p>I don’t know if those bygone days can remind me of a good memory all the time, but I'm pretty sure that tomorrow will come in one day.</p>
+  </div>
+
+  <div id="footer">
+    <p>Edit By:Weicheng Huang whuang23@hawk.iit.edu</p>
+  </div>
+
+</div>
+</body>
+
+</html>

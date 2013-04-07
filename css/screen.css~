@@ -36,7 +36,7 @@ text-transform: uppercase;
 .pic{
 width:500px;
 float:right;
-padding:20px;
+padding:10px;
 }
 
 .pic img{
