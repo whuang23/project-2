@@ -76,7 +76,7 @@
     </div>
 
     <div id="aboutme">
-      <h2><a href="about.htm">About Me</a></h2>
+      <h2><a href="about.htm">About Me</a><h4>click brown bar to hide or show detail</h4></h2>
       <p>Weicheng Huang, a student from far east, knows little about web design. This is the only one formal website he ever design. He now majors in Computer Science of Illinois Institute of Technology.....</p>
 			<p>Anyway, It is his website that with all his hard works. Come here and tell him about your feeling, we will be glad if you guys point him some brilliant way out.</p>
       <a href="resume.htm">see my resume</a>
