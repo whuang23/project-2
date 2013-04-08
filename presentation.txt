@@ -6,4 +6,32 @@
 		what is interesting is i use a little tricky things to make my index page more huminity. you can hide the datill by clicking the brown bar.(i add tips here so every one can easily find this javaScript.
 		By the way, personlly i love this background image that is exhibiting the beauty of symmetry. it was really a good experience to make a symmetry picture.
 		this is the common footer, i pay no attention on designing the footer
-		For the portfoilo lists. i translated serveral articles from my language to English, there are a club introduction, a competation expericence and 2 diaries. and the last one was a game which i make when i learn the javascript
+		For the portfoilo lists. i translated serveral articles from
+		my language to English, there are a club introduction, a
+		competation expericence and 2 diaries. and the last one was a
+		game which i make when i learn the javascript it's a black
+		jack game 
+
+		considing the css file, i managed the element with module
+		layout and base, which will make the css file easier to read
+		and modify. 
+
+		to draw a conclusion, i have really learn a lof of techniques
+		of designing a webpage, it's fundanmental conceptions and
+		common development rules even the usage of git hub. yes i
+		learn github operation in this course.
+		However, i still have some problem in the project. the
+		first one is that i can't find some of grate combo color that  suitable my
+		theme and it looks tedious.
+		the second one is the problem of position in index page that
+		the problem appears at extremely large screen. 
+		another is the javascript game, i worte this game when my
+		professior told me the fivth portfolio is not alow and i want
+		to emulate a set of poker with an object array and it will be
+		more logical. but, the truth is javascript core is different
+		at dealing the object and pointer which made me crazy to
+		handle it. so i will post a black jack 2.0 instead of 1.0 in
+		future.
+		that's it!
+	
+		
