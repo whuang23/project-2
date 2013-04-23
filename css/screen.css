@@ -3,174 +3,166 @@ Copyright (c) 2013,Weicheng Huang. All rights reserved.
 version: 1.0
 */
 /*base*/
-
+/* line 9, screen.scss */
 html {
-	background:url('../media/img/bg.png');
+  background: url("../media/img/bg.png");
+  font-family: "Arial"; }
 
-  font-family: "Bell MT";
-}
+/* line 15, screen.scss */
+a {
+  text-decoration: none;
+  color: black;
+  font-style: underline; }
 
-a{
-text-decoration:none;
-color:black;
-}
+/* line 21, screen.scss */
+ul p {
+  font-style: italic; }
 
-ul p{
-	font-style:italic;
-}
-h4{
-clear:both;
-text-align:right;
-font-size:10px;
-float:right;
+/* line 24, screen.scss */
+h4 {
+  clear: both;
+  text-align: right;
+  font-size: 10px;
+  float: right; }
 
-}
-h5{
+/* line 31, screen.scss */
+h5 {
+  float: right;
+  text-align: center;
+  color: #336699;
+  text-transform: uppercase; }
 
-float:right;
-text-align:center;
-color:#336699;
-text-transform: uppercase; 
-}
 /*lay out*/
-.pic{
-width:500px;
-float:right;
-padding:20px;
-}
+/* line 39, screen.scss */
+.pic {
+  width: 500px;
+  float: right;
+  padding: 20px; }
 
-.pic img{
-padding:10px;
-float:right;
-background-color:gray;
-
-
-}
-
-div#all{
-}
+/* line 45, screen.scss */
+.pic img {
+  padding: 10px;
+  float: right;
+  background-color: gray; }
 
 /*header*/
-div#header{
-	background-color:#8F6048;
-	padding-left:50px;
-	min-height:150px;
+/* line 57, screen.scss */
+div#header {
+  padding-left: 50px;
+  min-height: 150px;
   text-align: left;
-}
+  background-color: #8f6050; }
 
-div.logo h1{
-  padding-top:60px;
-  font-size:40px;
-  padding-bottom:20px;
-  color:#FFFFFF;
-}
+/* line 66, screen.scss */
+div.logo h1 {
+  padding-top: 60px;
+  font-size: 40px;
+  padding-bottom: 20px;
+  color: #FFFFFF; }
 
-div.img{
-  float:left;
-text-align:center;
-}
+/* line 73, screen.scss */
+div.img {
+  float: left;
+  text-align: center; }
 
 /*navigation*/
-div#navigation{
+/* line 82, screen.scss */
+#nagivation ul {
+  text-align: center; }
 
-}
-#nagivation ul{
-	text-align:center;
-}
-#navigation li{
-  float:left;
-	background-color:#8F6048;
-	margin-right:40px;
-	margin-left:40px;
-	margin-top:10px;
-	font-size:20px;
-	padding:5px;
-}
-#navigation li a{
-  color:#FFFFFF;
-}
+/* line 85, screen.scss */
+#navigation li {
+  float: left;
+  background-color: #8f6050;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 10px;
+  font-size: 20px;
+  padding: 5px; }
+
+/* line 94, screen.scss */
+#navigation li a {
+  color: #FFFFFF; }
+
 /*content*/
-
-div#content{
-	padding:10px;
-	clear:both;
-  font-size:22px;
+/* line 99, screen.scss */
+div#content {
+  padding: 10px;
+  clear: both;
+  font-size: 22px;
   text-align: left;
+  margin-bottom: 35px; }
 
-}
-div#content ul{
-	background-color:#FFFFFF;
+/* line 107, screen.scss */
+div#content ul {
+  background-color: #FFFFFF;
   list-style: upper-roman;
-font-style:normal;
-}
+  font-style: normal; }
 
-div#content h2{
-font-size:30px;
-padding-left:10px;
-background-color:#8F6048;
-color:#FFFFFF;
-text-align: left;
-}
+/* line 113, screen.scss */
+div#content h2 {
+  font-size: 30px;
+  padding-left: 10px;
+  background-color: #8f6050;
+  color: #FFFFFF;
+  text-align: left; }
 
-div#content h3{
-font-size:24px;
-padding-left:10px;
-background-color:#8F6048;
-color:#FFFFFF;
-text-align: left;
-}
-div#content h2>a{
-color:#FFFFFF;
-}
-.rightside{
-  text-align: right;
-}
-div#content p{
+/* line 121, screen.scss */
+div#content h3 {
+  font-size: 24px;
+  padding-left: 10px;
+  background-color: #8f6050;
+  color: #FFFFFF;
+  text-align: left; }
+
+/* line 128, screen.scss */
+div#content h2 > a {
+  color: #FFFFFF; }
+
+/* line 131, screen.scss */
+.rightside {
+  text-align: right; }
+
+/* line 134, screen.scss */
+div#content p {
   text-align: left;
-text-indent:20px;
-line-height:40px;
-background-color:#FFFFFF;
-color:#644436;
-}
-div#content img{
+  text-indent: 20px;
+  line-height: 40px;
+  background-color: #FFFFFF;
+  color: #644436; }
 
-}
 /*portfolio*/
+/* line 147, screen.scss */
+div#portfolio {
+  background-color: #FFFFFF;
+  box-shadow: 10px 10px 5px #888;
+  margin-bottom: 35px; }
 
-div#portfolio{
-	background-color:#FFFFFF;
-}
 /*aboutme*/
+/* line 157, screen.scss */
+div#aboutme {
+  border-radius: 7px;
+  background-color: #FFFFFF;
+  box-shadow: 10px 10px 5px #888; }
 
-div#aboutme{
-border-radius:7px;
-	background-color:#FFFFFF;
-}
 /*change when weith <800*/
 @media screen and (min-width: 960px) {
-	div#content{
-	}
-	div#portfolio{
-	width:470px;
+  /* line 166, screen.scss */
+  div#portfolio {
+    width: 470px;
+    float: left; }
 
-	float:left;
-	}
-	
-	div#aboutme{
-	margin-left:490px;
-	width:470px
-	}
-
-
-}
+  /* line 172, screen.scss */
+  div#aboutme {
+    margin-left: 490px;
+    width: 470px; } }
 /*footer*/
-div#footer{
-	clear:both;
-  margin-top:15px;
+/* line 180, screen.scss */
+div#footer {
+  clear: both;
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #999999;
   text-align: center;
-  font-size:12px;
-  color:#999999;
-}
+  font-size: 12px;
+  color: #999999; }

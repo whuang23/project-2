@@ -3,6 +3,8 @@ Copyright (c) 2013,Weicheng Huang. All rights reserved.
 version: 1.0
 */
 /*base*/
+$background: #8F6050;
+
 
 html {
 	background:url('../media/img/bg.png');
@@ -53,10 +55,11 @@ div#all{
 
 /*header*/
 div#header{
-	background-color:#8F6048;
 	padding-left:50px;
 	min-height:150px;
   text-align: left;
+background-color: rgb(143,96,80); // Old browsers
+
 
 }
 
@@ -81,7 +84,7 @@ div#navigation{
 }
 #navigation li{
   float:left;
-	background-color:#8F6048;
+	background-color:$background;
 	margin-right:40px;
 	margin-left:40px;
 	margin-top:10px;
@@ -110,7 +113,7 @@ font-style:normal;
 div#content h2{
 font-size:30px;
 padding-left:10px;
-background-color:#8F6048;
+background-color:$background;
 color:#FFFFFF;
 text-align: left;
 }
@@ -118,7 +121,7 @@ text-align: left;
 div#content h3{
 font-size:24px;
 padding-left:10px;
-background-color:#8F6048;
+background-color:$background;
 color:#FFFFFF;
 text-align: left;
 }
@@ -142,13 +145,12 @@ div#content img{
 /*portfolio*/
 
 div#portfolio{
--moz-border-radius: 15px;
-border-top-left-radius: 10px 5px;
-border-bottom-right-radius: 10% 5%;
-border-top-right-radius: 10px; 
+ 
 	background-color:#FFFFFF;
 	box-shadow: 10px 10px 5px #888;
 	  margin-bottom:35px;
+
+
 }
 /*aboutme*/
 
