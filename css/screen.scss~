@@ -1,0 +1,207 @@
+/*
+Copyright (c) 2013,Weicheng Huang. All rights reserved.
+version: 1.0
+*/
+/*base*/
+$background: #8F6050;
+
+
+html {
+	background:url('../media/img/bg.png');
+
+  font-family: "Arial";
+}
+
+a{
+text-decoration:none;
+color:black;
+font-style:underline;
+}
+
+ul p{
+	font-style:italic;
+}
+h4{
+clear:both;
+text-align:right;
+font-size:10px;
+float:right;
+
+}
+h5{
+
+float:right;
+text-align:center;
+color:#336699;
+text-transform: uppercase; 
+}
+/*lay out*/
+.pic{
+width:500px;
+float:right;
+padding:20px;
+}
+
+.pic img{
+padding:10px;
+float:right;
+background-color:gray;
+
+
+}
+
+div#all{
+}
+
+/*header*/
+div#header{
+	padding-left:50px;
+	min-height:150px;
+  text-align: left;
+background-color: rgb(143,96,80); // Old browsers
+
+
+}
+
+div.logo h1{
+  padding-top:60px;
+  font-size:40px;
+  padding-bottom:20px;
+  color:#FFFFFF;
+}
+
+div.img{
+  float:left;
+text-align:center;
+}
+
+/*navigation*/
+div#navigation{
+
+}
+#nagivation ul{
+	text-align:center;
+}
+#navigation li{
+  float:left;
+	background-color:$background;
+	margin-right:40px;
+	margin-left:40px;
+	margin-top:10px;
+	font-size:20px;
+	padding:5px;
+}
+#changecolor1{
+  float:left;
+	background-color:$background;
+	margin-right:40px;
+	margin-left:40px;
+	margin-top:10px;
+	font-size:20px;
+	padding:5px;
+}
+#changecolor2{
+  float:left;
+	background-color:#FFFFFF;
+	margin-right:40px;
+	margin-left:40px;
+	margin-top:10px;
+	font-size:20px;
+	padding:5px;
+}
+#navigation li a{
+  color:#FFFFFF;
+}
+/*content*/
+
+div#content{
+	padding:10px;
+	clear:both;
+  font-size:22px;
+  text-align: left;
+  margin-bottom:35px;
+
+}
+div#content ul{
+	background-color:#FFFFFF;
+  list-style: upper-roman;
+font-style:normal;
+}
+
+div#content h2{
+font-size:30px;
+padding-left:10px;
+background-color:$background;
+color:#FFFFFF;
+text-align: left;
+}
+
+div#content h3{
+font-size:24px;
+padding-left:10px;
+background-color:$background;
+color:#FFFFFF;
+text-align: left;
+}
+div#content h2>a{
+color:#FFFFFF;
+}
+.rightside{
+  text-align: right;
+}
+div#content p{
+  text-align: left;
+text-indent:20px;
+line-height:40px;
+background-color:#FFFFFF;
+color:#644436;
+
+}
+div#content img{
+
+}
+/*portfolio*/
+
+div#portfolio{
+ 
+	background-color:#FFFFFF;
+	box-shadow: 10px 10px 5px #888;
+	  margin-bottom:35px;
+
+
+}
+/*aboutme*/
+
+div#aboutme{
+border-radius:7px;
+	background-color:#FFFFFF;
+		box-shadow: 10px 10px 5px #888;
+}
+/*change when weith <800*/
+@media screen and (min-width: 960px) {
+	div#content{
+	}
+	div#portfolio{
+	width:470px;
+
+	float:left;
+	}
+	
+	div#aboutme{
+	margin-left:490px;
+	width:470px
+	}
+
+
+}
+/*footer*/
+div#footer{
+	clear:both;
+
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #999999;
+  text-align: center;
+  font-size:12px;
+  color:#999999;
+}

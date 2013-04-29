@@ -3,29 +3,24 @@ Copyright (c) 2013,Weicheng Huang. All rights reserved.
 version: 1.0
 */
 /*base*/
-/* line 9, screen.scss */
 html {
   background: url("../media/img/bg.png");
   font-family: "Arial"; }
 
-/* line 15, screen.scss */
 a {
   text-decoration: none;
   color: black;
   font-style: underline; }
 
-/* line 21, screen.scss */
 ul p {
   font-style: italic; }
 
-/* line 24, screen.scss */
 h4 {
   clear: both;
   text-align: right;
   font-size: 10px;
   float: right; }
 
-/* line 31, screen.scss */
 h5 {
   float: right;
   text-align: center;
@@ -33,44 +28,37 @@ h5 {
   text-transform: uppercase; }
 
 /*lay out*/
-/* line 39, screen.scss */
 .pic {
   width: 500px;
   float: right;
   padding: 20px; }
 
-/* line 45, screen.scss */
 .pic img {
   padding: 10px;
   float: right;
   background-color: gray; }
 
 /*header*/
-/* line 57, screen.scss */
 div#header {
   padding-left: 50px;
   min-height: 150px;
   text-align: left;
   background-color: #8f6050; }
 
-/* line 66, screen.scss */
 div.logo h1 {
   padding-top: 60px;
   font-size: 40px;
   padding-bottom: 20px;
   color: #FFFFFF; }
 
-/* line 73, screen.scss */
 div.img {
   float: left;
   text-align: center; }
 
 /*navigation*/
-/* line 82, screen.scss */
 #nagivation ul {
   text-align: center; }
 
-/* line 85, screen.scss */
 #navigation li {
   float: left;
   background-color: #8f6050;
@@ -80,12 +68,28 @@ div.img {
   font-size: 20px;
   padding: 5px; }
 
-/* line 94, screen.scss */
+.nomouse li {
+  float: left;
+  background-color: #8f6050;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 10px;
+  font-size: 20px;
+  padding: 5px; }
+
+.havemouse li {
+  float: left;
+  background-color: #FFFFFF;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 10px;
+  font-size: 20px;
+  padding: 5px; }
+
 #navigation li a {
   color: #FFFFFF; }
 
 /*content*/
-/* line 99, screen.scss */
 div#content {
   padding: 10px;
   clear: both;
@@ -93,13 +97,11 @@ div#content {
   text-align: left;
   margin-bottom: 35px; }
 
-/* line 107, screen.scss */
 div#content ul {
   background-color: #FFFFFF;
   list-style: upper-roman;
   font-style: normal; }
 
-/* line 113, screen.scss */
 div#content h2 {
   font-size: 30px;
   padding-left: 10px;
@@ -107,7 +109,6 @@ div#content h2 {
   color: #FFFFFF;
   text-align: left; }
 
-/* line 121, screen.scss */
 div#content h3 {
   font-size: 24px;
   padding-left: 10px;
@@ -115,15 +116,12 @@ div#content h3 {
   color: #FFFFFF;
   text-align: left; }
 
-/* line 128, screen.scss */
 div#content h2 > a {
   color: #FFFFFF; }
 
-/* line 131, screen.scss */
 .rightside {
   text-align: right; }
 
-/* line 134, screen.scss */
 div#content p {
   text-align: left;
   text-indent: 20px;
@@ -132,32 +130,27 @@ div#content p {
   color: #644436; }
 
 /*portfolio*/
-/* line 147, screen.scss */
 div#portfolio {
   background-color: #FFFFFF;
-  box-shadow: 10px 10px 5px #888;
+  box-shadow: 10px 10px 5px #888888;
   margin-bottom: 35px; }
 
 /*aboutme*/
-/* line 157, screen.scss */
 div#aboutme {
   border-radius: 7px;
   background-color: #FFFFFF;
-  box-shadow: 10px 10px 5px #888; }
+  box-shadow: 10px 10px 5px #888888; }
 
 /*change when weith <800*/
 @media screen and (min-width: 960px) {
-  /* line 166, screen.scss */
   div#portfolio {
     width: 470px;
     float: left; }
 
-  /* line 172, screen.scss */
   div#aboutme {
     margin-left: 490px;
     width: 470px; } }
 /*footer*/
-/* line 180, screen.scss */
 div#footer {
   clear: both;
   border-top-style: solid;
